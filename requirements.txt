@@ -1,0 +1,72 @@
+# Core dependencies
+huggingface_hub>=0.23.0
+python-dotenv==1.0.0
+
+# AutoGen for multi-agent conversations
+pyautogen>=0.9.0
+
+# API integrations
+google-search-results>=2.4.2
+requests==2.31.0
+newsapi-python>=0.2.7
+sec-api>=1.0.0
+
+# Data processing
+pandas>=2.2.0
+beautifulsoup4==4.12.2
+yfinance==0.2.18
+google-generativeai==0.3.2
+
+# Optional but recommended for development
+pytest>=7.4.0
+black>=23.3.0
+
+# Added from the code block
+pydantic>=2.11.0
+
+# Alternative data sources
+alpha-vantage==2.3.1
+iexfinance==0.5.0
+finnhub-python==2.4.18
+
+# Web scraping and parsing
+# lxml==4.9.3
+html5lib==1.1
+
+# Testing and development
+pytest-cov==4.1.0
+
+# Utilities
+tqdm==4.65.0
+colorama==0.4.6
+
+# HTTP client - updated for compatibility
+httpx>=0.25.0
+
+# Optional: For enhanced LLM capabilities
+openai>=1.90.0
+anthropic>=0.7.0
+
+# Optional: For data visualization
+matplotlib==3.7.2
+seaborn==0.12.2
+
+# Optional: For advanced data processing
+# scikit-learn==1.3.0
+# scipy==1.11.1
+
+# Optional: For web interface
+# streamlit==1.28.0
+# plotly==5.17.0
+
+# # Optional: For database storage
+# sqlalchemy==2.0.20
+# sqlite3
+
+# # Optional: For API documentation
+# fastapi==0.104.1
+# uvicorn==0.24.0
+
+# Added from the code block
+vertexai
+jsonschema

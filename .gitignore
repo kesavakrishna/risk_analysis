@@ -205,3 +205,15 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# ERM Assessment System
+# Generated assessment output files
+*_erm_assessment.txt
+*_erm_assessment.json
+outputs/
+
+# AutoGen cache
+.cache/
+
+# Temporary files
+tmpclaude-*
